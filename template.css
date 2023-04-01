@@ -10,15 +10,18 @@ body {
 
 /* Top Menu */
 header {
-    background-color: #EEEFF9;
+    background-color: white;
 }
 
+main {
+    background-color: #EEEFF9;
+}
 .topMenu {
     padding: 0px;
     height: 66px;
 }
 
-.topMenuLeftLink {
+.topMenuLeft a {
     text-decoration: none;
 }
 
@@ -49,12 +52,12 @@ header {
     float: right;
 }
 
-li.topMenuRightItem {
-    display: inline-block; 
+.topMenuRight li {
+    display: inline-block;
     width: 100px;
 }
 
-.topMenuRightLink {
+.topMenuRight a {
     color: black; 
 }
 
@@ -63,27 +66,64 @@ li.topMenuRightItem {
     text-align: center;
 }
 
-ul.mainMenuItem {
+/* 最外層選單 */
+.mainMenu ul {
     font-size: 20px;
     margin-top: 5px;
     padding: 0;
+    list-style: none;
 }
 
-li.mainMenuItem {
+/* 最外層選單 Item */
+.mainMenu > ul > li {
     display: inline-block;
-    margin: 10px;
+    padding: 0 10px;
+    min-width: 60px;
+    margin: 0 10px;
 }
 
-li.mainMenuItem:hover a.mainMenuLink:hover {
-    background-color: #171d3a;
-    color: white;
+/* 選單 hover 變色 */
+.mainMenu > ul > li:hover, .drop-down-menu > ul > li:hover {
+    background-color: #d2d2d2;
 }
 
-.mainMenuLink {
+.mainMenu a {
     text-decoration: none;
     color: black;
 }
 
+.drop-down-menu a:hover {
+    color: black;
+}
+
+.drop-down-menu ul {
+    position: absolute; /* 固定位置 */
+    display: none;
+    text-align: left;
+    margin: 0;
+    min-width: 60px;
+    list-style-position: outside;
+}
+
+/* 子選單背景色 */
+.drop-down-menu ul li {
+    background-color: white;
+}
+
+/* 子選單未 hover 時顏色為灰色 */
+.drop-down-menu ul li a{
+    color: gray;
+}
+
+.drop-down-menu:hover > ul {
+    display: block;
+}
+
+.drop-down-menu ul:hover {
+    display: block;
+}
+
+/* main Area */
 .mainArea {
     padding:0 10% 0 20%;
 }
@@ -107,6 +147,29 @@ table {
     margin: 10px 0 0 50px;
 }
 
+.sidebar p:nth-child(1) {
+    font-size:25px;
+    text-align: left;
+    line-height: 40px;
+    margin: 0;
+}
+
+.sidebar p {
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #1D2443;
+    color: white;
+}
 
 /* footer */
 footer {
@@ -120,42 +183,14 @@ footer {
     width: 900px;
 }
 
-.sidebarTitle {
-    font-size:25px;
-    text-align: left;
-    line-height: 40px;
-    margin: 0;
-}
-
-.sidebarItem {
-    line-height: 30px;
-    margin: 0;
-    text-align: center;
-}
-
-.sidebarLink {
-    color: black;
-    text-decoration: none;
-    padding: 5px;
-}
-
-.sidebarLink:hover {
-    background-color: #1D2443;
-    color: white;
-}
-
 .footerLeft {
     display: inline-block;
     text-align: left;
     color: white;
 }
 
-.footerLeftLink {
+.footerArea a {
     color: white;
-}
-
-.noTextDecoration {
-    text-decoration: none;
 }
 
 .footerRight {
@@ -166,14 +201,13 @@ footer {
 
 .footerRightLink {
     text-decoration: none;
-    color: white;
 }
 
 .footerRightImage {
     float: left;
 }
 
-img.footerRightImage {
+.footerRightImage {
     height: 50px;
 }
 
