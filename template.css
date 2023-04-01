@@ -74,6 +74,11 @@ li.mainMenuItem {
     margin: 10px;
 }
 
+li.mainMenuItem:hover a.mainMenuLink:hover {
+    background-color: #171d3a;
+    color: white;
+}
+
 .mainMenuLink {
     text-decoration: none;
     color: black;
@@ -132,6 +137,11 @@ footer {
     color: black;
     text-decoration: none;
     padding: 5px;
+}
+
+.sidebarLink:hover {
+    background-color: #1D2443;
+    color: white;
 }
 
 .footerLeft {
