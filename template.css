@@ -1,0 +1,178 @@
+/* common property */
+.inlineBlock {
+    display: inline-block;
+}
+
+/* class */
+body {
+    margin: 0;
+}
+
+/* Top Menu */
+header {
+    background-color: #EEEFF9;
+}
+
+.topMenu {
+    padding: 0px;
+    height: 66px;
+}
+
+.topMenuLeftLink {
+    text-decoration: none;
+}
+
+.topMenuLogo {
+    margin-top: 10px;
+    display: inline;
+    float: left;
+}
+
+.topMenuLeftText {
+    float: left;
+    padding-top: 15px;
+}
+
+.topMenuLeftTextZh {
+    margin: 0px;
+    color: black;
+    font-size: 18px;
+}
+
+.topMenuLeftTextEn {
+    margin: 0px;
+    color: black;
+    font-size: 15px;
+}
+
+.topMenuRight {
+    float: right;
+}
+
+li.topMenuRightItem {
+    display: inline-block; 
+    width: 100px;
+}
+
+.topMenuRightLink {
+    color: black; 
+}
+
+/* Main-Menu */
+.mainMenu {
+    text-align: center;
+}
+
+ul.mainMenuItem {
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+li.mainMenuItem {
+    display: inline-block;
+    margin: 10px;
+}
+
+.mainMenuLink {
+    text-decoration: none;
+    color: black;
+}
+
+.mainArea {
+    padding:0 10% 0 20%;
+}
+
+.mainAreaWithSidebar {
+    padding:0 10% 0 25%;
+}
+
+table {
+    border-collapse: collapse;    
+}
+
+/* sidebar */
+/* aside */
+.sidebar {
+    background-color: #e4e7f8;
+    width: 10%;
+    height: 160px;
+    float: left;
+    padding: 20px;
+    margin: 10px 0 0 50px;
+}
+
+
+/* footer */
+footer {
+    background-color: #1D2443;
+    height: 100px;
+    padding: 2% 20% 0% 20%;
+    margin-top: 30px;
+}
+
+.footerArea {
+    width: 900px;
+}
+
+.sidebarTitle {
+    font-size:25px;
+    text-align: left;
+    line-height: 40px;
+    margin: 0;
+}
+
+.sidebarItem {
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebarLink {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footerLeft {
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
+.footerLeftLink {
+    color: white;
+}
+
+.noTextDecoration {
+    text-decoration: none;
+}
+
+.footerRight {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.footerRightLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerRightImage {
+    float: left;
+}
+
+img.footerRightImage {
+    height: 50px;
+}
+
+.footerRightText {
+    text-align: left;
+}
+
+.copyrightArea {
+    background-color: #171d3a;
+    color: white;
+    text-align: center;
+}
