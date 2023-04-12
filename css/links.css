@@ -1,0 +1,32 @@
+.linksArea table {
+    width: 100%;
+}
+
+.linksArea td {
+    width: 50%;
+}
+
+.linksArea a {
+    text-decoration: none; color: black;
+}
+
+.linksArea .infoCard{
+    display: inline-block;
+}
+
+.linksArea img {
+    width:90px;
+    height:90px;
+    float: left;
+}
+
+.linksArea .linkName {
+    margin: 10px;
+    float: left;
+}
+
+.linksArea .linkName p {
+    font-size: 25px;
+    line-height: 90px;
+    margin: 0 0 0 20px;
+}
