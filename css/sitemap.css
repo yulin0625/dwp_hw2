@@ -1,0 +1,16 @@
+.sitemap ol > li {
+    margin: 0 0 20px 0px;
+}
+
+.sitemap ol li ul li{
+    margin: 5px;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: black;
+}
+
+.sitemap a:hover {
+    text-decoration: underline;
+}
