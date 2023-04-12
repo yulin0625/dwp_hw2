@@ -1,0 +1,28 @@
+.documentDownloadArea table {
+    border-collapse: collapse;
+}
+
+.documentDownloadArea th {
+    font-size: large;
+    padding: 0px 0px 10px 20px;
+    text-align: left;
+}
+
+.documentDownloadArea td {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.documentDownloadArea ul {
+    list-style-type:square;
+}
+
+.documentDownloadArea li {
+    margin-bottom: 10px;
+}
+
+.documentDownloadArea a {
+    text-decoration: none;
+    color: black;
+}
