@@ -1,0 +1,11 @@
+.bachelor_course_regulation {
+    height: 550px;
+}
+
+.instCSIE_course_regulation {
+    list-style: cjk-ideographic;
+}
+
+.instCSIE_course_regulation > li {
+    margin: 20px;
+}
