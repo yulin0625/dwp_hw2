@@ -1,0 +1,17 @@
+/* info */
+/* info.html */
+.noStyleList {
+    list-style: none;
+}
+
+/* location.css */
+.schoolMap {
+    text-align: center;
+}
+
+/* equipment.css */
+.equipmentImg {
+    width: 698px; 
+    height: 524px;
+    margin-bottom: 15px;
+}
