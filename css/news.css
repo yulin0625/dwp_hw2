@@ -1,0 +1,28 @@
+.newsArea table {
+    border-collapse: collapse;
+}
+
+.newsArea th {
+    font-size: large;
+    padding: 0px 0px 10px 20px;
+    text-align: left;
+}
+
+.newsArea td {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.newsArea ul {
+    list-style-type:square;
+}
+
+.newsArea li {
+    margin-bottom: 10px;
+}
+
+.newsArea a {
+    text-decoration: none;
+    color: black;
+}
