@@ -1,0 +1,12 @@
+/* 地理位置& 聯絡我們 */
+.locationArea {
+    float: left;
+    background-color: #1D2443;
+    color: white;
+    width: 40%;
+    padding: 0px 0px 10px 70px;
+}
+
+.locationArea img {
+    margin: 0px 0px 0px 25px;
+}
