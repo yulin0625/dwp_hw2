@@ -1,5 +1,13 @@
-.bachelor_course_regulation {
+.bachelor_course_regulation_img {
+    text-align: center;
+}
+
+.bachelor_course_regulation_img img {
     height: 550px;
+}
+
+.bachelor_course_regulation ol li {
+    padding: 5px;
 }
 
 .instCSIE_course_regulation {
